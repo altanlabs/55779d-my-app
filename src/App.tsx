@@ -17,6 +17,18 @@ import { store } from "./redux/store.ts";
 
 import { Layout } from "./layout";
 import Index from "./pages/index";
+
+
+
+
+
+
+import LoginPage from "./pages/LoginPage";
+import ProductListingPage from "./pages/ProductListingPage";
+import ProductDetailPage from "./pages/ProductDetailPage";
+import CartCheckoutPage from "./pages/CartCheckoutPage";
+import DiscountManagementPage from "./pages/DiscountManagementPage";
+import OrderHistoryPage from "./pages/OrderHistoryPage";
 import NotFound from "./pages/NotFound";
 import DashboardPage from "./pages/dashboard/DashboardPage.tsx";
 import DatabaseExample from "./pages/database/DatabaseExample.tsx";

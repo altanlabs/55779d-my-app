@@ -48,18 +48,16 @@ export default function IndexPage() {
         transition={{ duration: 0.8 }}
       >
         <Badge variant="secondary" className="mb-4">
-          Welcome to Your New App
+          Welcome to Your B2B eCommerce Portal
         </Badge>
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-          Build Beautiful Interfaces
-          <br />
-          With Altan AI
+          Discover Exclusive Products and Discounts
         </h1>
         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-         Start chatting to edit this app.
+         Browse our extensive catalog and manage your orders seamlessly.
         </p>
-        <Button size="lg" className="mt-4" onClick={() => navigate('/dashboard')}>
-          View sample dashboard <ArrowRight className="ml-2 h-4 w-4" />
+        <Button size="lg" className="mt-4" onClick={() => navigate('/products')}>
+          Explore Products <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </motion.section>
 
@@ -123,10 +121,10 @@ export default function IndexPage() {
       >
         <motion.div variants={fadeInUp} className="text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Explore Our Components
+            Key Features
           </h2>
           <p className="mx-auto mt-4 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-            Discover our extensive library of components, designed to help you build better interfaces.
+            Experience a seamless shopping experience with advanced search and personalized discounts.
           </p>
         </motion.div>
 
@@ -155,10 +153,10 @@ export default function IndexPage() {
           </p>
           <div className="mt-6 flex justify-center gap-4">
             <Button size="lg" variant="default">
-              Some CTA
+              Sign Up Now
             </Button>
             <Button size="lg" variant="outline">
-              Main CTA
+              Login
             </Button>
           </div>
         </motion.div>
